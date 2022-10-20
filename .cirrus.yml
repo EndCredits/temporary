@@ -52,7 +52,7 @@ task:
     isolation:
       container:
         image: apon77/aosp:cirrus
-        cpu: 24
+        cpu: 16
         memory: 120G
         volumes:
           - /home/cirrus/roms:/home/cirrus/roms
